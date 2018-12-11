@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B0F040D21BF56EB00AD6C7E /* umbrella_framework_objc_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F040321BF56EB00AD6C7E /* umbrella_framework_objc_1.framework */; };
+		8B0F041221BF56EB00AD6C7E /* umbrella_framework_objc_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F041121BF56EB00AD6C7E /* umbrella_framework_objc_1Tests.m */; };
+		8B0F041421BF56EB00AD6C7E /* umbrella_framework_objc_1.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0F040621BF56EB00AD6C7E /* umbrella_framework_objc_1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B0F040E21BF56EB00AD6C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0F03FA21BF56EB00AD6C7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B0F040221BF56EB00AD6C7E;
+			remoteInfo = "umbrella-framework-objc-1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B0F040321BF56EB00AD6C7E /* umbrella_framework_objc_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = umbrella_framework_objc_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0F040621BF56EB00AD6C7E /* umbrella_framework_objc_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = umbrella_framework_objc_1.h; sourceTree = "<group>"; };
+		8B0F040721BF56EB00AD6C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0F040C21BF56EB00AD6C7E /* umbrella-framework-objc-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "umbrella-framework-objc-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0F041121BF56EB00AD6C7E /* umbrella_framework_objc_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = umbrella_framework_objc_1Tests.m; sourceTree = "<group>"; };
+		8B0F041321BF56EB00AD6C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B0F040021BF56EB00AD6C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0F040921BF56EB00AD6C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0F040D21BF56EB00AD6C7E /* umbrella_framework_objc_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B0F03F921BF56EB00AD6C7E = {
+			isa = PBXGroup;
+			children = (
+				8B0F040521BF56EB00AD6C7E /* umbrella-framework-objc-1 */,
+				8B0F041021BF56EB00AD6C7E /* umbrella-framework-objc-1Tests */,
+				8B0F040421BF56EB00AD6C7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B0F040421BF56EB00AD6C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B0F040321BF56EB00AD6C7E /* umbrella_framework_objc_1.framework */,
+				8B0F040C21BF56EB00AD6C7E /* umbrella-framework-objc-1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B0F040521BF56EB00AD6C7E /* umbrella-framework-objc-1 */ = {
+			isa = PBXGroup;
+			children = (
+				8B0F040621BF56EB00AD6C7E /* umbrella_framework_objc_1.h */,
+				8B0F040721BF56EB00AD6C7E /* Info.plist */,
+			);
+			path = "umbrella-framework-objc-1";
+			sourceTree = "<group>";
+		};
+		8B0F041021BF56EB00AD6C7E /* umbrella-framework-objc-1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8B0F041121BF56EB00AD6C7E /* umbrella_framework_objc_1Tests.m */,
+				8B0F041321BF56EB00AD6C7E /* Info.plist */,
+			);
+			path = "umbrella-framework-objc-1Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B0F03FE21BF56EB00AD6C7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0F041421BF56EB00AD6C7E /* umbrella_framework_objc_1.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B0F040221BF56EB00AD6C7E /* umbrella-framework-objc-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0F041721BF56EB00AD6C7E /* Build configuration list for PBXNativeTarget "umbrella-framework-objc-1" */;
+			buildPhases = (
+				8B0F03FE21BF56EB00AD6C7E /* Headers */,
+				8B0F03FF21BF56EB00AD6C7E /* Sources */,
+				8B0F040021BF56EB00AD6C7E /* Frameworks */,
+				8B0F040121BF56EB00AD6C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "umbrella-framework-objc-1";
+			productName = "umbrella-framework-objc-1";
+			productReference = 8B0F040321BF56EB00AD6C7E /* umbrella_framework_objc_1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B0F040B21BF56EB00AD6C7E /* umbrella-framework-objc-1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0F041A21BF56EB00AD6C7E /* Build configuration list for PBXNativeTarget "umbrella-framework-objc-1Tests" */;
+			buildPhases = (
+				8B0F040821BF56EB00AD6C7E /* Sources */,
+				8B0F040921BF56EB00AD6C7E /* Frameworks */,
+				8B0F040A21BF56EB00AD6C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B0F040F21BF56EB00AD6C7E /* PBXTargetDependency */,
+			);
+			name = "umbrella-framework-objc-1Tests";
+			productName = "umbrella-framework-objc-1Tests";
+			productReference = 8B0F040C21BF56EB00AD6C7E /* umbrella-framework-objc-1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B0F03FA21BF56EB00AD6C7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "quangDecember@Github";
+				TargetAttributes = {
+					8B0F040221BF56EB00AD6C7E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8B0F040B21BF56EB00AD6C7E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B0F03FD21BF56EB00AD6C7E /* Build configuration list for PBXProject "umbrella-framework-objc-1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B0F03F921BF56EB00AD6C7E;
+			productRefGroup = 8B0F040421BF56EB00AD6C7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B0F040221BF56EB00AD6C7E /* umbrella-framework-objc-1 */,
+				8B0F040B21BF56EB00AD6C7E /* umbrella-framework-objc-1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B0F040121BF56EB00AD6C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0F040A21BF56EB00AD6C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B0F03FF21BF56EB00AD6C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0F040821BF56EB00AD6C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0F041221BF56EB00AD6C7E /* umbrella_framework_objc_1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B0F040F21BF56EB00AD6C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B0F040221BF56EB00AD6C7E /* umbrella-framework-objc-1 */;
+			targetProxy = 8B0F040E21BF56EB00AD6C7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B0F041521BF56EB00AD6C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B0F041621BF56EB00AD6C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B0F041821BF56EB00AD6C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "umbrella-framework-objc-1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quangvh.umbrella-framework-objc-1";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B0F041921BF56EB00AD6C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "umbrella-framework-objc-1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quangvh.umbrella-framework-objc-1";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B0F041B21BF56EB00AD6C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "umbrella-framework-objc-1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quangvh.umbrella-framework-objc-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B0F041C21BF56EB00AD6C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "umbrella-framework-objc-1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quangvh.umbrella-framework-objc-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B0F03FD21BF56EB00AD6C7E /* Build configuration list for PBXProject "umbrella-framework-objc-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0F041521BF56EB00AD6C7E /* Debug */,
+				8B0F041621BF56EB00AD6C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0F041721BF56EB00AD6C7E /* Build configuration list for PBXNativeTarget "umbrella-framework-objc-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0F041821BF56EB00AD6C7E /* Debug */,
+				8B0F041921BF56EB00AD6C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0F041A21BF56EB00AD6C7E /* Build configuration list for PBXNativeTarget "umbrella-framework-objc-1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0F041B21BF56EB00AD6C7E /* Debug */,
+				8B0F041C21BF56EB00AD6C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B0F03FA21BF56EB00AD6C7E /* Project object */;
+}
