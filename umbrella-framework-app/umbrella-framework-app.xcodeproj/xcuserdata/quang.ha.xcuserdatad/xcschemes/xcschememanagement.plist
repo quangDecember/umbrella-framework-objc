@@ -4,10 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>umbrella-framework-objc-1.xcscheme_^#shared#^_</key>
+		<key>umbrella-framework-app.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>

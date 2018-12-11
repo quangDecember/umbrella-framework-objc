@@ -1,0 +1,6 @@
+[submodule "SDWebImage"]
+	path = SDWebImage
+	url = https://github.com/SDWebImage/SDWebImage.git
+[submodule "NSLogger"]
+	path = NSLogger
+	url = https://github.com/fpillet/NSLogger.git

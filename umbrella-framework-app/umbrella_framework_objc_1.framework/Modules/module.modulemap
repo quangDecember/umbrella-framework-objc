@@ -1,0 +1,6 @@
+framework module umbrella_framework_objc_1 {
+  umbrella header "umbrella_framework_objc_1.h"
+
+  export *
+  module * { export * }
+}

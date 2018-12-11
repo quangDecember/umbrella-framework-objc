@@ -10,6 +10,9 @@
 		8B0F040D21BF56EB00AD6C7E /* umbrella_framework_objc_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F040321BF56EB00AD6C7E /* umbrella_framework_objc_1.framework */; };
 		8B0F041221BF56EB00AD6C7E /* umbrella_framework_objc_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F041121BF56EB00AD6C7E /* umbrella_framework_objc_1Tests.m */; };
 		8B0F041421BF56EB00AD6C7E /* umbrella_framework_objc_1.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0F040621BF56EB00AD6C7E /* umbrella_framework_objc_1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0F041F21BF571D00AD6C7E /* UmViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0F041D21BF571D00AD6C7E /* UmViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0F042021BF571D00AD6C7E /* UmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F041E21BF571D00AD6C7E /* UmViewController.m */; };
+		8B0F044D21BF666100AD6C7E /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F044621BF63C700AD6C7E /* SDWebImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +23,48 @@
 			remoteGlobalIDString = 8B0F040221BF56EB00AD6C7E;
 			remoteInfo = "umbrella-framework-objc-1";
 		};
+		8B0F044121BF63C700AD6C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0F043821BF63C600AD6C7E /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = "SDWebImage iOS static";
+		};
+		8B0F044321BF63C700AD6C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0F043821BF63C600AD6C7E /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4314D1991D0E0E3B004B36C9;
+			remoteInfo = "SDWebImage watchOS static";
+		};
+		8B0F044521BF63C700AD6C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0F043821BF63C600AD6C7E /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A2CADFF1AB4BB5300B6BC39;
+			remoteInfo = "SDWebImage iOS";
+		};
+		8B0F044721BF63C700AD6C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0F043821BF63C600AD6C7E /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00733A4C1BC487C000A5A117;
+			remoteInfo = "SDWebImage tvOS";
+		};
+		8B0F044921BF63C700AD6C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0F043821BF63C600AD6C7E /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 431BB7031D06D2C1006A3455;
+			remoteInfo = "SDWebImage watchOS";
+		};
+		8B0F044B21BF63C700AD6C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0F043821BF63C600AD6C7E /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4397D2F21D0DDD8C00BB2784;
+			remoteInfo = "SDWebImage OSX";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +74,9 @@
 		8B0F040C21BF56EB00AD6C7E /* umbrella-framework-objc-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "umbrella-framework-objc-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0F041121BF56EB00AD6C7E /* umbrella_framework_objc_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = umbrella_framework_objc_1Tests.m; sourceTree = "<group>"; };
 		8B0F041321BF56EB00AD6C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0F041D21BF571D00AD6C7E /* UmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UmViewController.h; sourceTree = "<group>"; };
+		8B0F041E21BF571D00AD6C7E /* UmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UmViewController.m; sourceTree = "<group>"; };
+		8B0F043821BF63C600AD6C7E /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0F044D21BF666100AD6C7E /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +102,11 @@
 		8B0F03F921BF56EB00AD6C7E = {
 			isa = PBXGroup;
 			children = (
+				8B0F043821BF63C600AD6C7E /* SDWebImage.xcodeproj */,
 				8B0F040521BF56EB00AD6C7E /* umbrella-framework-objc-1 */,
 				8B0F041021BF56EB00AD6C7E /* umbrella-framework-objc-1Tests */,
 				8B0F040421BF56EB00AD6C7E /* Products */,
+				8B0F043621BF5E8E00AD6C7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +124,8 @@
 			children = (
 				8B0F040621BF56EB00AD6C7E /* umbrella_framework_objc_1.h */,
 				8B0F040721BF56EB00AD6C7E /* Info.plist */,
+				8B0F041D21BF571D00AD6C7E /* UmViewController.h */,
+				8B0F041E21BF571D00AD6C7E /* UmViewController.m */,
 			);
 			path = "umbrella-framework-objc-1";
 			sourceTree = "<group>";
@@ -86,6 +139,26 @@
 			path = "umbrella-framework-objc-1Tests";
 			sourceTree = "<group>";
 		};
+		8B0F043621BF5E8E00AD6C7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B0F043921BF63C600AD6C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B0F044221BF63C700AD6C7E /* libSDWebImage iOS static.a */,
+				8B0F044421BF63C700AD6C7E /* libSDWebImage watchOS static.a */,
+				8B0F044621BF63C700AD6C7E /* SDWebImage.framework */,
+				8B0F044821BF63C700AD6C7E /* SDWebImage.framework */,
+				8B0F044A21BF63C700AD6C7E /* SDWebImage.framework */,
+				8B0F044C21BF63C700AD6C7E /* SDWebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B0F041421BF56EB00AD6C7E /* umbrella_framework_objc_1.h in Headers */,
+				8B0F041F21BF571D00AD6C7E /* UmViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +237,12 @@
 			mainGroup = 8B0F03F921BF56EB00AD6C7E;
 			productRefGroup = 8B0F040421BF56EB00AD6C7E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8B0F043921BF63C600AD6C7E /* Products */;
+					ProjectRef = 8B0F043821BF63C600AD6C7E /* SDWebImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8B0F040221BF56EB00AD6C7E /* umbrella-framework-objc-1 */,
@@ -170,6 +250,51 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8B0F044221BF63C700AD6C7E /* libSDWebImage iOS static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage iOS static.a";
+			remoteRef = 8B0F044121BF63C700AD6C7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B0F044421BF63C700AD6C7E /* libSDWebImage watchOS static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage watchOS static.a";
+			remoteRef = 8B0F044321BF63C700AD6C7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B0F044621BF63C700AD6C7E /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 8B0F044521BF63C700AD6C7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B0F044821BF63C700AD6C7E /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 8B0F044721BF63C700AD6C7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B0F044A21BF63C700AD6C7E /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 8B0F044921BF63C700AD6C7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B0F044C21BF63C700AD6C7E /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 8B0F044B21BF63C700AD6C7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8B0F040121BF56EB00AD6C7E /* Resources */ = {
@@ -193,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0F042021BF571D00AD6C7E /* UmViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
